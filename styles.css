@@ -74,9 +74,44 @@
 
     header {
         text-align: center;
+        color: var(--white-color);
+        background-color: var(--purple-color);
+        padding: 30px;
+    }
+
+    nav {
+        text-align: center;
+        color: var(--dark-gray-color);
+        background-color: var(--yellow-color);
+        padding: 30px;
+    }
+
+    #our-services {
         background-color: var(--purple-color);
     }
 
+    #why-choose-us {
+        background-color: var(--pink-color);
+    }
+
+    #prices {
+        background-color: var(--purple-color);
+    }
+
+    #take-the-first-step {
+        background-color: var(--pink-color);
+    }
+
+    footer{
+        background-color: var(--purple-color);
+        padding: 30px;
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr; 
+        padding: 20px;
+    }
+
+    /* text sizes */
     h1, h2 {
         font-family: 'Kavoon';
         color: var(--white-color);
@@ -90,11 +125,7 @@
         font-size: 3em;
     }
 
-    nav, h2 {
-        font-size: 1.5em;
-    }
-
-    nav, h2 {
+    nav h2 {
         font-size: 1.5em;
     }
 
