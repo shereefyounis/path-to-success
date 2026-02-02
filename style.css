@@ -71,30 +71,11 @@
 
     body {
         max-width: 450px;
-        background-color: var(--primary-bg-color);
+        margin: 0 auto;
     }
-
-    header{
-        background-color: var(--primary-bg-color);
-    }
-
-    nav{
-        background-color: var(--quaternary-bg-color);
-    }
-
-    main {
-        background-color: var(--primary-bg-color);
-    }
-
-    footer {
-        background-color: var(--primary-bg-color);
-    }
-
-
 
     h1, h2 {
         font-family: 'Kavoon';
-        color: var(--secondary-text-color);
     }
 
     p {
@@ -119,17 +100,8 @@
 
     h3 {
         font-size: 1.5em;
-        color: var(--tertiary-text-color);
     }
 
     h4 {
         font-size: 1.15em;
-    }
-
-    #why-choose-us {
-        background-color: var(--tertiary-bg-color);
-    }
-
-    #take-the-first-step {
-        background-color: var(--tertiary-bg-color);
     }
