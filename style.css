@@ -74,6 +74,24 @@
         background-color: var(--primary-bg-color);
     }
 
+    header{
+        background-color: var(--primary-bg-color);
+    }
+
+    nav{
+        background-color: var(--quaternary-bg-color);
+    }
+
+    main {
+        background-color: var(--primary-bg-color);
+    }
+
+    footer {
+        background-color: var(--primary-bg-color);
+    }
+
+
+
     h1, h2 {
         font-family: 'Kavoon';
         color: var(--secondary-text-color);
@@ -106,4 +124,12 @@
 
     h4 {
         font-size: 1.15em;
+    }
+
+    #why-choose-us {
+        background-color: var(--tertiary-bg-color);
+    }
+
+    #take-the-first-step {
+        background-color: var(--tertiary-bg-color);
     }
