@@ -112,6 +112,7 @@
     }
 
 
+
     /* Our Services Section */
     #our-services {
         background-color: var(--purple-color);
@@ -119,20 +120,19 @@
     }
 
     #our-services h2 {
-    color: var(--white-color);
-    font-family: 'Kavoon';
-    font-size: 2em;
-    margin-bottom: 10px;
-}
+        color: var(--white-color);
+        font-family: 'Kavoon';
+        margin-bottom: 10px;
+    }
 
     #our-services h3 {
-        color: var(--white-color);
         font-family: 'Inter';
-        font-size: 1.2em;
         font-weight: bold;
-        margin: 30px 0 20px 0;
+        
         text-align: left;
     }
+
+
 
     /* Service card styling */
     #our-services section {
@@ -145,8 +145,8 @@
     }
 
     #our-services section img {
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
         margin-bottom: 15px;
         display: block;
     }
@@ -167,6 +167,7 @@
         margin: 0;
     }
 
+    
 
     /* Why Choose Us Section */
     #why-choose-us {
