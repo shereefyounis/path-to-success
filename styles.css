@@ -56,15 +56,13 @@
 
 /* ROOT VARIABLES */
     :root {
-        --primary-bg-color: #484FB7;
-        --secondary-bg-color: #ffffff;
-        --tertiary-bg-color: #D9526F;
-        --quaternary-bg-color: #E9BB57;
-
-        --primary-text-color: #1E1E1E;
-        --secondary-text-color: #ffffff;
-        --tertiary-text-color: #E9BB57;
-        --quaternary-text-color: #484FB7;
+        --teal-color: #4CA7C0;
+        --purple-color: #484FB7;
+        --lavender-color: #6B8FE7;
+        --yellow-color: #E9BB57;
+        --pink-color: #D9526F;
+        --dark-gray-color: #1E1E1E;
+        --white-color: #ffffff;
     }
 
 /* GLOBAL STYLES (mobile first/small) */
@@ -72,6 +70,7 @@
     body {
         max-width: 450px;
         margin: 0 auto;
+        background-color: var(--lavender-color);
     }
 
     h1, h2 {
