@@ -70,11 +70,16 @@
     body {
         max-width: 450px;
         margin: 0 auto;
-        background-color: var(--lavender-color);
+    }
+
+    header {
+        text-align: center;
+        background-color: var(--purple-color);
     }
 
     h1, h2 {
         font-family: 'Kavoon';
+        color: var(--white-color);
     }
 
     p {
