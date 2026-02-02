@@ -102,7 +102,7 @@
         background-color: var(--pink-color);
     }
 
-    footer{
+    footer {
         background-color: var(--purple-color);
         padding: 30px;
         display: grid;
