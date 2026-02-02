@@ -1,7 +1,11 @@
 /* CSS BY Shereef Younis */
 
+
+
 /* IMPORTED FONTS */
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+
 
 /* CSS RESET */
 
@@ -54,6 +58,8 @@
         border-spacing: 0;
     }
 
+
+
 /* ROOT VARIABLES */
     :root {
         --teal-color: #4CA7C0;
@@ -65,14 +71,18 @@
         --white-color: #ffffff;
     }
 
+
+    
 /* GLOBAL STYLES (mobile first/small) */
 
+    /* Body Section */
     body {
         max-width: 450px;
         margin: 0 auto;
         background-color: var(--lavender-color);
     }
 
+    /* Header Section */
     header {
         text-align: center;
         color: var(--white-color);
@@ -80,6 +90,7 @@
         padding: 40px;
     }
 
+    /* Navigation Section */
     nav {
         text-align: center;
         color: var(--dark-gray-color);
@@ -87,28 +98,25 @@
         padding: 20px;
     }
 
-    nav h2{
-        font-family: 'Inter';
+    nav h2 {
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
-
         color: var(--dark-gray-color);
     }
 
     nav ul li {
         margin-top: 10px;
-        background-color: white; 
-        padding: 15px; 
+        padding: 15px;
+        background-color: var(--white-color); 
+        text-decoration: none;
         font-weight: bold;
         text-transform: uppercase;
-        text-decoration: none;
         gap: 30px;
     }
 
     nav a {
         text-decoration: none;
-        font-family: 'Inter';
     }
 
 
@@ -116,55 +124,45 @@
     /* Our Services Section */
     #our-services {
         background-color: var(--purple-color);
-        padding: 20px;
+        padding: 15px 5px 5px 5px;
     }
 
     #our-services h2 {
         color: var(--white-color);
-        font-family: 'Kavoon';
+        margin-left: 10px;
         margin-bottom: 10px;
     }
 
     #our-services h3 {
-        font-family: 'Inter';
+        margin-left: 10px;
+        color: var(--yellow-color);
         font-weight: bold;
-        
-        text-align: left;
     }
 
-
-
-    /* Service card styling */
     #our-services section {
-        background-color: var(--white-color);
-        margin: 15px 0;
+        margin: 20px;
         padding: 20px;
         border-radius: 10px;
         text-align: left;
-        color: var(--dark-gray-color);
+        background-color: var(--white-color);
     }
 
     #our-services section img {
-        width: 75px;
-        height: 75px;
-        margin-bottom: 15px;
-        display: block;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
     }
 
     #our-services section h4 {
-        color: var(--dark-gray-color);
-        font-family: 'Inter';
+        color: var(--purple-color);
         font-weight: bold;
-        font-size: 1.1em;
         margin-bottom: 10px;
     }
 
     #our-services section p {
         color: var(--dark-gray-color);
-        font-family: 'Inter';
         font-size: 0.9em;
         line-height: 1.4;
-        margin: 0;
     }
 
     
@@ -172,7 +170,11 @@
     /* Why Choose Us Section */
     #why-choose-us {
         background-color: var(--pink-color);
-        padding: 20px;
+        padding: 15px;
+    }
+
+    #why-choose-us h2 {
+        color: var(--white-color);
     }
 
     .reason-cards {
@@ -182,7 +184,6 @@
         margin-top: 20px;
         text-align: center;
         font-weight: bold;
-        font-family: 'Inter';
     }
 
     .card1 {
@@ -223,18 +224,18 @@
 
     #prices h2{
         padding-bottom: 10px;
+        color: var(--white-color);
+    }
+
+    #prices h3{
+        color: var(--yellow-color);
+        font-weight: bold;
     }
 
     table {
         width: 250px;
-        border-collapse: collapse;
-        column-width: auto;
         background-color: var(--white-color);
-        margin-top: 20px;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 10px auto 10px auto;
     }
 
     table, th, td {
@@ -245,43 +246,43 @@
     thead {
         background-color: var(--yellow-color);
         font-weight: bold;
-        font-family: 'Inter';
         text-transform: uppercase;
         height: 50px;
     }
 
-    thead th{
-        text-align: center;
+    thead th {
         vertical-align: middle;
     }
 
     tbody {
         height: 120px;
-        font-family: 'Inter';
     }
 
     tbody td {
-        text-align: left;
         vertical-align: middle;
-    }
+        text-align: left;
+     }
 
 
 
     /* Take the First Step Section */
     #take-the-first-step {
         background-color: var(--pink-color);
-        padding : 15px;
+        padding : 15px 15px 10px 15px;
         text-align: center;
     }
 
-    #take-the-first-step p {
-        margin-top: 15px;
-        font-family: 'Inter';
+    #take-the-first-step h2 {
         color: var(--white-color);
-        line-height: 1.4;
-        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    #take-the-first-step p {
+        color: var(--white-color);
+        line-height: 1.5;
         font-size: 1em;
         text-align: left;
+        margin: 15px 0 10px 0
     }
 
     #take-the-first-step a {
@@ -290,11 +291,9 @@
         font-weight: bold;
         color: var(--dark-gray-color);
         background-color: var(--white-color);
-        font-family: 'Inter';
         text-transform: uppercase;
         padding: 20px 120px;
         border-radius: 15px;
-        font-size: 1em;
 
         box-shadow: 5px 5px 5px var(--dark-gray-color);
     }
@@ -309,9 +308,8 @@
         text-align: center;
         grid-template-columns: 1fr 1fr; 
         padding: 50px;
-        font-family: 'Inter';
         color: var(--white-color);
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     footer a{
@@ -320,13 +318,13 @@
 
 
 
-    /* text sizes */
+    /* text sizes & more*/
     h1, h2 {
         font-family: 'Kavoon';
-        color: var(--white-color);
     }
 
-    p {
+    /* other text sizes / classes / id's */
+    h3, h4, p, a, nav h2, footer, tbody, thead, .reason-cards{
         font-family: 'Inter';
     }
 
@@ -344,9 +342,6 @@
 
     h3 {
         font-size: 1.5em;
-        color: var(--yellow-color);
-        font-weight: bold;
-        font-family: 'Inter';
     }
 
     h4 {
