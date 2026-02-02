@@ -70,24 +70,51 @@
     body {
         max-width: 450px;
         margin: 0 auto;
+        background-color: var(--lavender-color);
     }
 
     header {
         text-align: center;
         color: var(--white-color);
         background-color: var(--purple-color);
-        padding: 30px;
+        padding: 40px;
+        line-break: auto;
     }
 
     nav {
         text-align: center;
         color: var(--dark-gray-color);
         background-color: var(--yellow-color);
-        padding: 30px;
+        padding: 20px;
+    }
+
+    nav h2{
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        color: var(--dark-gray-color);
+    }
+
+    nav ul li {
+        margin-top: 10px;
+        background-color: white; 
+        padding: 15px; 
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        gap: 30px;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-family: 'Inter';
     }
 
     #our-services {
         background-color: var(--purple-color);
+        padding: 20px;
     }
 
     #why-choose-us {
